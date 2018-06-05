@@ -1,0 +1,40 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: MSG_PLATFORM - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\XGM\AppData\Local\Temp\RSPE966.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/MSG_PLATFORM.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\My Program\MSG_PLATFORM\PlatformDB.cpp"
+]
+Creating command line "cl.exe @C:\Users\XGM\AppData\Local\Temp\RSPE966.tmp" 
+Creating temporary file "C:\Users\XGM\AppData\Local\Temp\RSPE976.tmp" with contents
+[
+libmysql.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/MSG_PLATFORM.pdb" /debug /machine:I386 /out:"Debug/MSG_PLATFORM.exe" /pdbtype:sept 
+".\Debug\MSG_PLATFORM.obj"
+".\Debug\MSG_PLATFORMDlg.obj"
+".\Debug\MySQLOperate.obj"
+".\Debug\StdAfx.obj"
+".\Debug\MSG_PLATFORM.res"
+".\Debug\PlatformDB.obj"
+]
+Creating command line "link.exe @C:\Users\XGM\AppData\Local\Temp\RSPE976.tmp"
+<h3>Output Window</h3>
+Compiling...
+PlatformDB.cpp
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/MSG_PLATFORM.bsc"  ".\Debug\StdAfx.sbr" ".\Debug\MSG_PLATFORM.sbr" ".\Debug\MSG_PLATFORMDlg.sbr" ".\Debug\MySQLOperate.sbr" ".\Debug\PlatformDB.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+MSG_PLATFORM.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
